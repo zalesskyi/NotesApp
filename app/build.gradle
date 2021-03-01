@@ -1,0 +1,53 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'androidx.navigation.safeargs'
+apply from: "$project.rootDir/buildsystem/dependencies.gradle"
+
+android {
+
+    def globalConfig = rootProject.ext
+
+    compileSdkVersion 30
+    buildToolsVersion "30.0.1"
+
+    defaultConfig {
+        applicationId "com.zalesskyi.photogallery"
+        minSdkVersion globalConfig.androidMinSdkVersion
+        targetSdkVersion globalConfig.androidTargetSdkVersion
+        compileSdkVersion globalConfig.androidCompileSdkVersion
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+            applicationIdSuffix ".debug"
+            versionNameSuffix "-debug"
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+kotlin {
+    androidExtensions {
+        experimental = true
+    }
+}
+
+dependencies {
+
+    presentationDependencies()
+}
