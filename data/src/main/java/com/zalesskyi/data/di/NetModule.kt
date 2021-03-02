@@ -1,5 +1,6 @@
 package com.zalesskyi.data.di
 
+import com.google.firebase.auth.FirebaseAuth
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import dagger.Module
@@ -42,10 +43,10 @@ class NetModule {
                         gson: Gson,
                         factory: CallAdapter.Factory): Retrofit {
         return Retrofit.Builder()
-                .baseUrl("")  // todo
-                .addConverterFactory(GsonConverterFactory.create(gson))
-                .addCallAdapterFactory(factory)
-                .client(okHttpClient)
-                .build()
+              .baseUrl("")  // todo
+              .addConverterFactory(GsonConverterFactory.create(gson))
+              .addCallAdapterFactory(factory)
+              .client(okHttpClient)
+              .build()
     }
 }

@@ -126,6 +126,7 @@ ext.dataDependencies = dependencyGroup {
     dagger()
     retrofit()
     db()
+    signIn()
 }
 
 ext.kotlinSdk = dependencyGroup {
@@ -173,6 +174,12 @@ ext.dagger = dependencyGroup {
     implementation "com.google.dagger:dagger-android-support:$daggerVersion"
     kapt "com.google.dagger:dagger-compiler:$daggerVersion"
     kapt "com.google.dagger:dagger-android-processor:$daggerVersion"
+}
+
+ext.signIn = dependencyGroup {
+
+    api platform('com.google.firebase:firebase-bom:26.5.0')
+    api 'com.google.firebase:firebase-auth-ktx'
 }
 
 ext.navigation = dependencyGroup {
