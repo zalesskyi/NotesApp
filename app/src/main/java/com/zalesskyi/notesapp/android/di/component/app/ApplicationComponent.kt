@@ -2,7 +2,6 @@ package com.zalesskyi.notesapp.android.di.component.app
 
 import com.zalesskyi.data.di.DataModule
 import com.zalesskyi.data.di.NetModule
-import com.zalesskyi.data.di.RemoteModule
 import com.zalesskyi.notesapp.App
 import com.zalesskyi.notesapp.android.di.module.ApplicationModule
 import com.zalesskyi.notesapp.android.di.viewmodelfactory.ActivityViewModelModule
@@ -23,7 +22,6 @@ import javax.inject.Singleton
         (AndroidSupportInjectionModule::class),
         (DataModule::class),
         (NetModule::class),
-        (RemoteModule::class),
         (ActivitiesBindsModule::class),
         (ApplicationComponent.FragmentBindingsModule::class),
         (ApplicationComponent.ServiceBindingsModule::class)

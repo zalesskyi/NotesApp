@@ -35,7 +35,7 @@ class SplashActivity : BaseActivity<SplashViewModel>() {
 
     private fun finishSplash() {
         Handler().postDelayed({
-            navigator.toAuth()
+            navigator.toMain()
             finish()
         }, 2000)
     }
