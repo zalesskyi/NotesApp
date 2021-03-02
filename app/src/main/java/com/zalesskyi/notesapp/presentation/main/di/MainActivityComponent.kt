@@ -44,6 +44,9 @@ interface MainActivityComponent : AndroidInjector<MainActivity> {
 
         @Binds
         fun provideActivityModule(activity: MainActivity): AppCompatActivity
+
+        @Binds
+        fun bindAppHostProvider(activity: MainActivity): AppNavProvider
     }
 
     @Module(

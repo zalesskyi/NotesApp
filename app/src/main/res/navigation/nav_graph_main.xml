@@ -2,4 +2,15 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/nav_graph_main">
 
+    <!--<fragment todo
+        android:id="@+id/galleryFragment"
+        android:name="com.zalesskyi.photogallery.presentation.main.gallery.GalleryFragment"
+        android:label="GalleryFragment"
+        tools:layout="@layout/fragment_gallery">
+
+        <action
+            android:id="@+id/action_galleryFragment_to_photosFragment"
+            app:destination="@id/photosFragment" />
+    </fragment>-->
+
 </navigation>
