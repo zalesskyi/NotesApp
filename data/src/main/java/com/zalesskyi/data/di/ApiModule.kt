@@ -1,11 +1,8 @@
 package com.zalesskyi.data.di
 
-import com.zalesskyi.data.network.api.AuthApi
-import com.zalesskyi.data.network.api.AuthApiImpl
-import com.zalesskyi.data.network.api.MediaApi
+import com.zalesskyi.data.network.api.*
 import dagger.Module
 import dagger.Provides
-import retrofit2.Retrofit
 import javax.inject.Singleton
 
 @Module
@@ -13,10 +10,13 @@ class ApiModule {
 
     @Singleton
     @Provides
-    fun provideMediaApi(retrofit: Retrofit): MediaApi =
-          retrofit.create(MediaApi::class.java)
+    fun provideAuthApi(): AuthApi = AuthApiImpl()
 
     @Singleton
     @Provides
-    fun provideAuthApi(): AuthApi = AuthApiImpl()
+    fun provideNotesApi(): NotesApi = NotesApiImpl()
+
+    @Singleton
+    @Provides
+    fun provideMediaApi(): MediaApi = MediaApiImpl()
 }

@@ -1,5 +1,6 @@
 package com.zalesskyi.notesapp.navigation
 
+import android.content.Intent
 import com.stromee.navigation.screen.ActivityRequestScreen
 import com.stromee.navigation.screen.AppScreen
 import com.zalesskyi.notesapp.android.system.ContextHolder
@@ -40,7 +41,9 @@ class AppNavigator @Inject constructor(
     private fun realNavigation(direction: String, args: Map<*, *>?) {
         contextHolder.getContext()?.let { context ->
             val intent = when (direction) {
-                SPLASH_TO_MAIN, AUTH_TO_MAIN -> MainActivity.getIntent(context)
+                SPLASH_TO_MAIN, AUTH_TO_MAIN -> MainActivity.getIntent(context).apply {
+                    flags = Intent.FLAG_ACTIVITY_NEW_TASK  or Intent.FLAG_ACTIVITY_CLEAR_TOP
+                }
                 SPLASH_TO_AUTH -> AuthActivity.getIntent(context)
                 else -> throw NotImplementedError()
             }

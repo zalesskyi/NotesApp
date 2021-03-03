@@ -111,6 +111,7 @@ ext.presentationDependencies = dependencyGroup {
 
 ext.domainDependencies = dependencyGroup {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    api 'net.danlew:android.joda:2.10.9.1'
     kotlinSdk()
     coroutines()
     dagger()
@@ -120,6 +121,8 @@ ext.domainDependencies = dependencyGroup {
 ext.dataDependencies = dependencyGroup {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(':domain')
+    implementation 'com.google.firebase:firebase-database-ktx'
+    implementation 'com.google.firebase:firebase-storage-ktx'
 
     kotlinSdk()
     coroutines()
@@ -145,15 +148,13 @@ ext.db = dependencyGroup {
 ext.ui = dependencyGroup {
     implementation "com.google.android.material:material:1.2.0-beta01"
     implementation "androidx.constraintlayout:constraintlayout:2.0.0-beta4"
-    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
     implementation "androidx.appcompat:appcompat:${androidxVersion}"
     implementation "androidx.core:core-ktx:${ktxVersion}"
     implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
     kapt "androidx.lifecycle:lifecycle-compiler:2.2.0"
-    implementation 'com.hannesdorfmann:adapterdelegates4:4.1.1'
-    implementation "com.facebook.shimmer:shimmer:0.5.0"
-    implementation 'com.github.nitrico.lastadapter:lastadapter:2.3.0'
 }
 
 ext.coroutines = dependencyGroup {

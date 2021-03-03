@@ -21,7 +21,10 @@ class SignUpFragment : BaseFragment<SignUpViewModel>() {
     override fun observeViewModel() {
         viewModel.run {
             signUpLD.observe(viewLifecycleOwner) {
-                if (it) navigator.toMain()
+                if (it) {
+                    navigator.toMain()
+                    activity?.finish()
+                }
             }
         }
     }

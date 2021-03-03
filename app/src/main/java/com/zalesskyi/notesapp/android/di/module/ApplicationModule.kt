@@ -2,6 +2,7 @@ package com.zalesskyi.notesapp.android.di.module
 
 import android.app.Application
 import android.content.Context
+import com.zalesskyi.data.store.LocalStore
 import com.zalesskyi.notesapp.android.di.qualifier.AppQualifier
 import com.zalesskyi.notesapp.android.system.ContextHolder
 import dagger.Module
@@ -24,4 +25,8 @@ open class ApplicationModule(val application: Application) {
     @Provides
     @Singleton
     fun provideContextManager(): ContextHolder = ContextHolder()
+
+    @Singleton
+    @Provides
+    fun provideLocalStore(): LocalStore = LocalStore(application)
 }

@@ -18,53 +18,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c97c8a5b-d2af-46a9-b8ab-72e6568ab6fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/ext/View.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/BaseFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/auth/AuthActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/auth/AuthNavigator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/auth/AuthViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/auth/di/AuthActivityComponent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/auth/signIn/SignInFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/auth/signIn/SignInViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/auth/signIn/di/SignInFragmentComponent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/auth/signUp/SignUpFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/auth/signUp/SignUpViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/auth/signUp/di/SignUpFragmentComponent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/splash/SplashActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/splash/SplashNavigator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/splash/SplashViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/splash/di/SplashActivityComponent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_auth.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_list.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_signup.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph_auth.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/google-services.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/zalesskyi/data/network/api/AuthApi.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/zalesskyi/data/repository/AuthDataRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/zalesskyi/domain/repository/AuthRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/zalesskyi/domain/usecases/SignInUseCase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/zalesskyi/domain/usecases/SignUpUseCase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_add_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/zalesskyi/data/store/LocalStore.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/zalesskyi/domain/usecases/IsLoggedInUseCase.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/android/di/component/app/ActivitiesBindsModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/android/di/component/app/ActivitiesBindsModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/android/di/module/ApplicationModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/android/di/module/ApplicationModule.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/navigation/AppNavigator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/navigation/AppNavigator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/navigation/NavDirections.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/navigation/NavDirections.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/BaseViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/BaseViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/main/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/main/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/main/di/MainActivityComponent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/main/di/MainActivityComponent.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildsystem/dependencies.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/buildsystem/dependencies.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/zalesskyi/data/di/ApiModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/zalesskyi/data/di/ApiModule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/zalesskyi/data/di/DataModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/zalesskyi/data/di/DataModule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/zalesskyi/data/di/NetModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/zalesskyi/data/di/NetModule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/zalesskyi/domain/base/UseCaseCoroutine.kt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/zalesskyi/domain/base/UseCaseCoroutine.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/auth/signIn/SignInFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/auth/signIn/SignInFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/auth/signUp/SignUpFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/auth/signUp/SignUpFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/splash/SplashActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/splash/SplashActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/splash/SplashViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/splash/SplashViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/zalesskyi/data/repository/AuthDataRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/zalesskyi/data/repository/AuthDataRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/zalesskyi/domain/repository/AuthRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/zalesskyi/domain/repository/AuthRepository.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +59,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -116,7 +83,7 @@
     <property name="android-custom-view/Users/alexeyzalesskyi/.gradle/caches/modules-2/files-2.1/com.airbnb.android/lottie/3.4.4/71cb88076b1258bd19cc275223a6cc680e3df3b7/lottie-3.4.4-sources.jar!/com/airbnb/lottie/LottieAnimationView.java_SELECTED" value="LottieAnimationView" />
     <property name="android-custom-view/Users/alexeyzalesskyi/.gradle/caches/modules-2/files-2.1/com.yuyakaido.android/card-stack-view/2.3.4/f71a9612bf45eefafc10121422f8c3f919c460bf/card-stack-view-2.3.4-sources.jar!/com/yuyakaido/android/cardstackview/CardStackView.java_SELECTED" value="CardStackView" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/main" />
     <property name="multi-representation-preview/Users/alexeyzalesskyi/.gradle/caches/modules-2/files-2.1/androidx.cardview/cardview/1.0.0/c9f3ce7ca74ad2c978230f4094ba6804c5166f9c/cardview-1.0.0-sources.jar!/androidx/cardview/widget/CardView.java_selected" value="Custom views" />
     <property name="multi-representation-preview/Users/alexeyzalesskyi/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0/f2bdf79e1977939817f54a9d3e2f6bc52b63bdd0/recyclerview-1.1.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_selected" value="Custom views" />
     <property name="multi-representation-preview/Users/alexeyzalesskyi/.gradle/caches/modules-2/files-2.1/androidx.viewpager2/viewpager2/1.0.0/3c3569044e6969f1ee5c3aa03b08e6717a2d782f/viewpager2-1.0.0-sources.jar!/androidx/viewpager2/widget/ViewPager2.java_selected" value="Custom views" />
@@ -125,10 +92,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/photogallery/presentation/base" />
-      <recent name="$PROJECT_DIR$/domain/src/main/java/com/zalesskyi/domain/base" />
-    </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="com.zalesskyi.notesapp.presentation" />
       <recent name="com.zalesskyi.photogallery.presentation.base" />
@@ -136,17 +99,22 @@
       <recent name="com.zalesskyi.data" />
       <recent name="com.zalesskyi.photogallery.system.lifecycle" />
     </key>
-    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
-      <recent name="com.zalesskyi.photogallery.presentation.main.details.di" />
-      <recent name="com.zalesskyi.photogallery.presentation.main.photos.di" />
-      <recent name="com.zalesskyi.photogallery.presentation.splash.di" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/main" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/auth/signUp" />
-      <recent name="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/auth" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.zalesskyi.notesapp.presentation.main.create.di" />
+      <recent name="com.zalesskyi.photogallery.presentation.main.details.di" />
+      <recent name="com.zalesskyi.photogallery.presentation.main.photos.di" />
+      <recent name="com.zalesskyi.photogallery.presentation.splash.di" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/zalesskyi/photogallery/presentation/base" />
+      <recent name="$PROJECT_DIR$/domain/src/main/java/com/zalesskyi/domain/base" />
     </key>
   </component>
   <component name="RunManager" selected="Android App.app">
@@ -389,7 +357,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604259459386</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added Auth.">
+      <created>1614670345088</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1614670345088</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Implemented main screen.">
+      <created>1614718153432</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1614718153432</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -415,26 +397,32 @@
     <MESSAGE value="Added error handling." />
     <MESSAGE value="Added Readme." />
     <MESSAGE value="Renamed ViewModel factory." />
-    <option name="LAST_COMMIT_MESSAGE" value="Renamed ViewModel factory." />
+    <MESSAGE value="Added Auth." />
+    <MESSAGE value="Implemented main screen." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented main screen." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="499" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1614664182075">
+    <state x="499" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1614715490258">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="499" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1614664182075" />
+    <state x="499" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1614715490258" />
     <state x="348" y="235" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1614663787447">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="348" y="235" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1614663787447" />
-    <state x="542" y="234" key="AndroidCreateXmlResourceDialog" timestamp="1614664405639">
+    <state x="542" y="234" key="AndroidCreateXmlResourceDialog" timestamp="1614713242047">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="542" y="234" key="AndroidCreateXmlResourceDialog/0.0.1440.900@0.0.1440.900" timestamp="1614664405639" />
-    <state x="489" y="203" key="AndroidProcessChooserDialog" timestamp="1614670223002">
+    <state x="542" y="234" key="AndroidCreateXmlResourceDialog/0.0.1440.900@0.0.1440.900" timestamp="1614713242047" />
+    <state x="489" y="203" key="AndroidProcessChooserDialog" timestamp="1614748889293">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="489" y="203" key="AndroidProcessChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1614670223002" />
+    <state x="489" y="203" key="AndroidProcessChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1614748889293" />
+    <state x="278" y="27" key="CommitChangelistDialog2" timestamp="1614718153146">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="278" y="27" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1614718153146" />
     <state x="521" y="376" key="Github.CreateGistDialog" timestamp="1614624270230">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -447,57 +435,73 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="432" y="156" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1614624434561" />
-    <state width="1398" height="340" key="GridCell.Tab.0.bottom" timestamp="1614670223241">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom" timestamp="1614748970890">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state width="1398" height="340" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614670223241" />
-    <state width="1398" height="340" key="GridCell.Tab.0.center" timestamp="1614670223240">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614748889758" />
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1614748970890" />
+    <state width="1398" height="205" key="GridCell.Tab.0.center" timestamp="1614748970887">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state width="1398" height="340" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1614670223240" />
-    <state width="1398" height="340" key="GridCell.Tab.0.left" timestamp="1614670223240">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="205" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1614748889756" />
+    <state width="1398" height="205" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1614748970887" />
+    <state width="1398" height="205" key="GridCell.Tab.0.left" timestamp="1614748970886">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state width="1398" height="340" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1614670223240" />
-    <state width="1398" height="340" key="GridCell.Tab.0.right" timestamp="1614670223241">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="205" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1614748889754" />
+    <state width="1398" height="205" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1614748970886" />
+    <state width="1398" height="205" key="GridCell.Tab.0.right" timestamp="1614748970890">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state width="1398" height="340" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1614670223241" />
-    <state width="1398" height="340" key="GridCell.Tab.1.bottom" timestamp="1614670229396">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="205" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1614748889757" />
+    <state width="1398" height="205" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1614748970890" />
+    <state width="1398" height="205" key="GridCell.Tab.1.bottom" timestamp="1614748970892">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state width="1398" height="340" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614670229396" />
-    <state width="1398" height="340" key="GridCell.Tab.1.center" timestamp="1614670229395">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="205" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614748895361" />
+    <state width="1398" height="205" key="GridCell.Tab.1.bottom/0.23.1440.825@0.23.1440.825" timestamp="1614748970892" />
+    <state width="1398" height="205" key="GridCell.Tab.1.center" timestamp="1614748970891">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state width="1398" height="340" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1614670229395" />
-    <state width="1398" height="340" key="GridCell.Tab.1.left" timestamp="1614670229395">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="205" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1614748895360" />
+    <state width="1398" height="205" key="GridCell.Tab.1.center/0.23.1440.825@0.23.1440.825" timestamp="1614748970891" />
+    <state width="1398" height="205" key="GridCell.Tab.1.left" timestamp="1614748970891">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state width="1398" height="340" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1614670229395" />
-    <state width="1398" height="340" key="GridCell.Tab.1.right" timestamp="1614670229396">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="205" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1614748895360" />
+    <state width="1398" height="205" key="GridCell.Tab.1.left/0.23.1440.825@0.23.1440.825" timestamp="1614748970891" />
+    <state width="1398" height="205" key="GridCell.Tab.1.right" timestamp="1614748970892">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state width="1398" height="340" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1614670229396" />
+    <state width="1398" height="205" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1614748895361" />
+    <state width="1398" height="205" key="GridCell.Tab.1.right/0.23.1440.825@0.23.1440.825" timestamp="1614748970892" />
     <state x="221" y="62" key="SettingsEditor" timestamp="1614662205522">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="62" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1614662205522" />
-    <state x="312" y="205" width="1128" height="490" key="find.popup" timestamp="1614667389512">
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1614718154964">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="312" y="205" width="1128" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1614667389512" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1614669879172">
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1614718154964" />
+    <state x="503" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614690137113">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1614669879172" />
+    <state x="503" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1614690137113" />
+    <state x="312" y="205" width="1128" height="490" key="find.popup" timestamp="1614703716998">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="312" y="205" width="1128" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1614703716998" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1614749056612">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1614749056612" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/auth/signUp/SignUpFragment.kt</url>
-          <line>24</line>
+          <line>27</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
@@ -510,7 +514,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/data/src/main/java/com/zalesskyi/data/repository/AuthDataRepository.kt</url>
-          <line>14</line>
+          <line>18</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
@@ -534,9 +538,44 @@
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/auth/signIn/SignInFragment.kt</url>
-          <line>24</line>
-          <option name="timeStamp" value="20" />
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/main/list/ListFragment.kt</url>
+          <line>36</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/navigation/AppNavComponentsNavigator.kt</url>
+          <line>12</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/data/src/main/java/com/zalesskyi/data/network/api/MediaApi.kt</url>
+          <line>28</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/data/src/main/java/com/zalesskyi/data/network/api/MediaApi.kt</url>
+          <line>29</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/main/create/CreateNoteViewModel.kt</url>
+          <line>62</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/main/create/CreateNoteViewModel.kt</url>
+          <line>60</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/splash/SplashActivity.kt</url>
+          <line>19</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/zalesskyi/notesapp/presentation/splash/SplashActivity.kt</url>
+          <line>28</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -544,6 +583,9 @@
       <configuration name="Remote">
         <watch expression="tvGoToSignUp" />
         <watch expression="it.isSuccessful" />
+        <watch expression="it.result.toString()" />
+        <watch expression="it.result?.path" />
+        <watch expression="it.result?.toString()" />
       </configuration>
     </watches-manager>
   </component>

@@ -13,11 +13,16 @@ import com.zalesskyi.notesapp.presentation.main.MainActivity
 import com.zalesskyi.notesapp.presentation.main.MainNavigator
 import com.zalesskyi.notesapp.presentation.main.MainNavigatorImpl
 import com.zalesskyi.notesapp.presentation.main.MainViewModelImpl
+import com.zalesskyi.notesapp.presentation.main.create.CreateNoteFragment
+import com.zalesskyi.notesapp.presentation.main.create.di.CreateNoteFragmentComponent
+import com.zalesskyi.notesapp.presentation.main.list.ListFragment
+import com.zalesskyi.notesapp.presentation.main.list.di.ListFragmentComponent
 import dagger.Binds
 import dagger.Module
 import dagger.Provides
 import dagger.Subcomponent
 import dagger.android.AndroidInjector
+import dagger.multibindings.ClassKey
 import dagger.multibindings.IntoMap
 import javax.inject.Named
 
@@ -51,9 +56,23 @@ interface MainActivityComponent : AndroidInjector<MainActivity> {
 
     @Module(
         subcomponents = [
+            (ListFragmentComponent::class),
+            (CreateNoteFragmentComponent::class)
         ]
     )
-    abstract class FragmentBindingsModule
+    abstract class FragmentBindingsModule {
+
+        @Binds
+        @IntoMap
+        @ClassKey(value = ListFragment::class)
+        internal abstract fun bindListFragment(factory: ListFragmentComponent.Factory): AndroidInjector.Factory<*>
+
+        @Binds
+        @IntoMap
+        @ClassKey(value = CreateNoteFragment::class)
+        internal abstract fun bindSignUpFragment(factory: CreateNoteFragmentComponent.Factory): AndroidInjector.Factory<*>
+
+    }
 
 
     @Module
@@ -75,7 +94,7 @@ interface MainActivityComponent : AndroidInjector<MainActivity> {
         }
 
         @Provides
-        fun provideNavigator(@Named(MainNavigatorImpl.APP_NAVIGATOR) navigator: Navigator): MainNavigator =
+        fun provideNavigator(@Named(MainNavigatorImpl.APP_NAV_NAVIGATOR) navigator: Navigator): MainNavigator =
                 MainNavigatorImpl(navigator)
     }
 
