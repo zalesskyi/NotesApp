@@ -11,6 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PhotoGallery">
         <activity android:name="com.zalesskyi.notesapp.presentation.splash.SplashActivity"
+            android:launchMode="singleTask"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -21,7 +21,10 @@ class SignInFragment : BaseFragment<SignInViewModel>() {
     override fun observeViewModel() {
         viewModel.run {
             signInLD.observe(viewLifecycleOwner) {
-                if (it) navigator.toMain()
+                if (it) {
+                    navigator.toMain()
+                    activity?.finish()
+                }
             }
         }
     }
